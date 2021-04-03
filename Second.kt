@@ -38,7 +38,4 @@ class square{
     fun Sarea(side: Float): Float? {
         return side/4
     }
-
 }
-
-
