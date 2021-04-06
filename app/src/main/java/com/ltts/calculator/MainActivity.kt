@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                 val result = expression.evaluate()
                 val longResult = result.toLong()
                 if (result == longResult.toDouble()) {
-                    Toast.makeText(this, "Double", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Output", Toast.LENGTH_SHORT).show()
                     answer.text = longResult.toString()
                 } else
                     answer.text = result.toString()
